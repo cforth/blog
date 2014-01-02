@@ -49,3 +49,9 @@ code {
   background:#F5F4D5;  
   
 }
+
+div#text {
+  background-color:#F5F5F5;
+  border-style:outset;
+  padding:5px;
+}

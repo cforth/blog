@@ -2,7 +2,7 @@ body {
   width:780px;
   margin:0 auto;
   font-family: \5FAE\8F6F\96C5\9ED1;
-  background:#F5F4D5;  
+  background:#E3E3E3;  
 }
 
 p {
@@ -53,5 +53,5 @@ code {
 div#text {
   background-color:#F5F5F5;
   border-style:groove;
-  padding:5px;
+  padding:10px;
 }

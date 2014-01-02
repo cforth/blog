@@ -9,6 +9,10 @@ p {
   line-height: 150%;
 }
 
+pre {
+  background-color:#F5F5F5;
+}
+
 a:link {
   color:#4169E1;
   font-weight:bold;

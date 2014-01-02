@@ -52,6 +52,6 @@ code {
 
 div#text {
   background-color:#F5F5F5;
-  border-style:outset;
+  border-style:groove;
   padding:5px;
 }

@@ -3,9 +3,6 @@ body {
   margin:0 auto;
   font-family: \5FAE\8F6F\96C5\9ED1;
   background:#E3E3E3;  
-  min-height:400px; //（解决ie8.9.ff.chrome）
-  *+height:100%;  //（解决ie7）
-  _height:400px; //（解决ie6） ie6超出自动溢出
 }
 
 p {
@@ -58,4 +55,7 @@ div#text {
   background-color:#F5F5F5;
   border-style:groove;
   padding:10px;
+  min-height:780px; //（解决ie8.9.ff.chrome）
+  *+height:100%;  //（解决ie7）
+  _height:780px; //（解决ie6） ie6超出自动溢出
 }

@@ -53,9 +53,9 @@ div#text {
   background-color:#F5F5F5;
   border-style:none;
   padding:10px;
-  min-height:780px; //（解决ie8.9.ff.chrome）
+  min-height:760px; //（解决ie8.9.ff.chrome）
   *+height:100%;  //（解决ie7）
-  _height:780px; //（解决ie6） ie6超出自动溢出
+  _height:760px; //（解决ie6） ie6超出自动溢出
 }
 
 div#footer {

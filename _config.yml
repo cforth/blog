@@ -1,1 +1,4 @@
 baseurl: /cfhurricane
+markdown: redcarpet
+redcarpet:
+  extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: windows系统XAMPP安装
+title: Windows系统XAMPP安装
 ---
 {{ page.title }}
 ----------------
@@ -12,6 +12,18 @@ title: windows系统XAMPP安装
 还有因为我在windows上开发，所以安装了VIM的windows版。下面是我的配置文件_VIMRC：
 
 ```
+syntax on
+set nocp
+set number
+set backspace=indent,eol,start
+set ww=b,s,<,>,[,]
+set nobackup
+set noai
+set expandtab
+set shiftwidth=2
+set tabstop=2
+set ts=2
+
 set encoding=utf-8
 set fileencodings=utf-8,chinese,latin-1
 if has("win32")

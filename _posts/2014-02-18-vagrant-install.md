@@ -17,9 +17,9 @@ Vagrant能封装一个Linux开发环境，打包后再发放给团队成员使�
 3. 下载官方封装好的[**基础镜像**](http://www.vagrantbox.es/)。
 
 4. 添加镜像到 Vagrant。假设镜像存放路径是~/box/precise64.box(Windows系统可以使用Cygwin):
-    ```bash
-    $ vagrant box add mybox ~/box/precise64.box
-    ```
+    {% highlight bash %}
+    vagrant box add mybox ~/box/precise64.box
+    {% endhighlight %}
 
 5. 切换到开发目录(比如 ~/work)，用mybox镜像初始化目录:
     ```bash

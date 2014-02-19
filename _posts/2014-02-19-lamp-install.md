@@ -19,6 +19,6 @@ title: LAMP服务器安装配置
 
 6. [**phpMyAdmin 高级功能设置方法**](http://teddysun.com/268.html)。
 
-
+7. [**Vagrant 知识澄清与杂症诊治**](http://wushaobo.info/?p=83)。
 
 {{ page.date | date: "%Y-%m-%d" }}

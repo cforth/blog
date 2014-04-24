@@ -25,11 +25,9 @@ title: Rails开发环境部署
 8. 安装nodejs来提供JavaScript runtime。（3号坑）
 
 9. Rails安装成功后，一定要通过下面三条命令来选择最新的ruby版本。
-```
     source ~/.rvm/scripts/rvm
     rvm reload
     rvm use default
-```
 
 10. Rails开发环境就部署好了，只需要关闭虚拟机后执行vagrant package 来打包虚拟机就能再其他机器上快速部署Rails了。在安装过程中注意三个大坑，不来会把自己害惨的。
 

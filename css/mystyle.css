@@ -15,6 +15,11 @@ div#menu {
   float:left;
 }
 
+div#footer {
+  float:left;
+  text-align:center;
+}
+
 p {
   line-height: 180%;
 }
@@ -73,9 +78,6 @@ div#text {
   _height:760px; //（解决ie6） ie6超出自动溢出
 }
 
-div#footer {
-  text-align:center;
-}
 
 
 /* .highlight  { background: #ffffff; } */

@@ -6,16 +6,17 @@ body {
 }
 
 div#content {
-  width:600px;
+  width:620px;
   float:left;
 }
 
 div#menu {
-  width:180px;
+  width:150px;
   float:left;
 }
 
 div#footer {
+  width:780px;
   float:left;
   text-align:center;
 }

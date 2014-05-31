@@ -8,17 +8,20 @@ body {
 div#content {
   width:620px;
   float:left;
+  border:0;
 }
 
 div#menu {
   width:150px;
   float:left;
+  border:0;
 }
 
 div#footer {
   width:780px;
   float:left;
   text-align:center;
+  border:0;
 }
 
 p {

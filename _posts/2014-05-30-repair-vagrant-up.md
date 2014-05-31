@@ -8,7 +8,7 @@ title: 修复Vagrant启动错误
 今天在执行‘vagrant up’命令启动Ubuntu虚拟机时，跳出一个报错：
 
 Vagrant could not detect VirtualBox! Make sure VirtualBox is properly installed.
-Vagrant uses the `VBoxManage` binary that ships with VirtualBox, and requires this to be available on the PATH. If VirtualBox is installed, please find the VBoxManage binary and add it to the PATH environmental variable.
+Vagrant uses the ‘VBoxManage’ binary that ships with VirtualBox, and requires this to be available on the PATH. If VirtualBox is installed, please find the ‘VBoxManage’ binary and add it to the PATH environmental variable.
 
 貌似Vagrant找不到VBoxManage的启动路径，导致虚拟机启动失败。
 

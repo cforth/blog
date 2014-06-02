@@ -20,11 +20,13 @@ title: Lua编程日志-第0篇
 4. 我在Lua官网上下载了Lua 5.2.0的测试文件，来测试lua解释器行为的正确性。
 
 在测试中，发现了一条报错信息：
+
 ```
 lua: nextvar.lua:344: bad argument #1 to 'remove' (position out of bounds)
 ```
 
 查看对应文件中的代码：
+
 ```lua
 a = {10,20,30,40}
 assert(table.remove(a, #a + 1) == nil and table.remove(a, 0) == nil)

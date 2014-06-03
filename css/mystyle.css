@@ -24,6 +24,18 @@ div#footer {
   border:0;
 }
 
+div#main {
+  min-height:760px; //（解决ie8.9.ff.chrome）
+  *+height:100%;  //（解决ie7）
+  _height:760px; //（解决ie6） ie6超出自动溢出
+}
+
+div#text {
+  background-color:#FFFFFF;
+  border-style:none;
+  padding:10px;
+}
+
 p {
   line-height: 180%;
 }
@@ -71,15 +83,6 @@ pre {
   border-style: solid;
   border-width: 1px;
   border-color: #A9A9A9;
-}
-
-div#text {
-  background-color:#FFFFFF;
-  border-style:none;
-  padding:10px;
-  min-height:760px; //（解决ie8.9.ff.chrome）
-  *+height:100%;  //（解决ie7）
-  _height:760px; //（解决ie6） ie6超出自动溢出
 }
 
 

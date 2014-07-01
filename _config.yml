@@ -3,5 +3,5 @@ markdown: redcarpet
 redcarpet:
   extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]
 
-paginate: 10
-paginate_path: "/page:num"
+paginate: 12
+paginate_path: "/page:num" 

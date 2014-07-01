@@ -1,7 +1,7 @@
-baseurl: /blog/
+baseurl: /blog
 markdown: redcarpet
 redcarpet:
   extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]
 
-paginate: 15
-paginate_path: "page:num"
+paginate: 10
+paginate_path: "/page:num"

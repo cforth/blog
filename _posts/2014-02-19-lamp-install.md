@@ -1,6 +1,7 @@
 ---
 layout: default
 title: LAMP服务器安装配置
+excerpt: 利用Vagrant安装好Centos 6.4虚拟机后，练习了LAMP服务器的安装与配置。
 ---
 {{ page.title }}
 ----------------

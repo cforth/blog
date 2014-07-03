@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Ubuntu12.04升级后ATI显卡驱动问题
+excerpt: ATI的显卡驱动莫名其妙丢失了。
 ---
 {{ page.title }}
 ----------------

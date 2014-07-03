@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Vagrant安装步骤
+excerpt: Vagrant是个好用的开发环境部署工具。
 ---
 {{ page.title }}
 ----------------

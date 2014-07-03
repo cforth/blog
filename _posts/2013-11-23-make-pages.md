@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 利用github的pages服务做了个简单的网页
+excerpt: 前段时间，由于业务需要，写了个简单的网页来显示股票行情。
 ---
 {{ page.title }}
 ----------------

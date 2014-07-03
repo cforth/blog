@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 购买了新的域名
+excerpt: 为个人网页启用新的域名。
 ---
 {{ page.title }}
 ----------------

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Windows系统XAMPP安装
+excerpt: XAMPP能让你在Windows上一键安装PHP+Apache+MySQL。
 ---
 {{ page.title }}
 ----------------

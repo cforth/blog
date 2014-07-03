@@ -6,4 +6,4 @@ redcarpet:
 paginate: 12
 paginate_path: "/page:num" 
 
-excerpt_separator: "+++"
+excerpt_separator: "\n\n\n"

@@ -6,9 +6,11 @@ body {
 }
 
 div#content {
-  width:610px;
+  width:630px;
   float:left;
-  border:5px;
+  border:0;
+  padding-right:5px;
+
 }
 
 div#menu {
@@ -78,6 +80,7 @@ h3 {
 
 ul {
   list-style-type:square;
+  padding-left:0px;
   margin:0;
 }
 

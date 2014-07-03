@@ -6,9 +6,9 @@ body {
 }
 
 div#content {
-  width:620px;
+  width:610px;
   float:left;
-  border:0;
+  border:5px;
 }
 
 div#menu {

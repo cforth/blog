@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lua编程日志-第0篇
-excert: 安装Lua语言开发环境的步骤。
+excerpt: 安装Lua语言开发环境的步骤。
 ---
 {{ page.title }}
 ----------------

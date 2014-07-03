@@ -70,8 +70,11 @@ h1 {
 
 h2 {
   margin-bottom:0;
-  margin-top:0;
   font-size:35px;
+}
+
+div#text > h2 {
+  margin-top:0;
 }
 
 h3 {

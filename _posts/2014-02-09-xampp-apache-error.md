@@ -4,7 +4,7 @@ title: Apache启动失败问题
 excerpt: 一个愚蠢的错误导致Apache启动失败。
 ---
 {{ page.title }}
-----------------
+================
 
 
 最近大半个月，都在学习[**《哈佛大学公开课:构建动态网站》**](http://v.163.com/special/opencourse/buildingdynamicwebsites.html)。今天正在做股票模拟交易网站的小项目，作为练习。我是在windows机器上安装了XAMPP来做项目的，在打开Apache服务器时，意外出现了“启动失败”的报错。

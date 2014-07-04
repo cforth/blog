@@ -4,7 +4,7 @@ title: Windows系统XAMPP安装
 excerpt: XAMPP能让你在Windows上一键安装PHP+Apache+MySQL。
 ---
 {{ page.title }}
-----------------
+================
 
 [**XAMPP**](http://www.apachefriends.org/zh_cn/xampp-windows.html)是一个把Apache网页服务器与PHP、Perl及MySQL集合在一起的安装包，允许用户可以在自己的电脑上轻易的建立网页服务器。
 

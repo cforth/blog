@@ -4,7 +4,7 @@ title: Rails开发环境部署
 excerpt: 通过Vagrant搭建Rails开发环境。
 ---
 {{ page.title }}
-----------------
+================
 
 
 [**Rails**](http://guides.rubyonrails.org/)开发环境的部署，对新手来说有几个大坑的。我花了几个下午才把Rails安装成功，下面就是Rails开发环境部署的过程：

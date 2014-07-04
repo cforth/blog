@@ -4,7 +4,7 @@ title: 推出知识搜索服务
 excerpt: 模仿Google搜索做的知识搜索网站。
 ---
 {{ page.title }}
-----------------
+================
 
 [**知识搜索**](http://cfishacker.com/weblab/)是个伪搜索引擎。类似与聚合搜索，但其实就是一个html页面。
 

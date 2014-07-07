@@ -10,9 +10,6 @@ title: 十八哥的日志归档
     data = JSON.parse(dataStr),
     curTag = $.query.get("tag"),
     archieves = data[curTag];
-    $("tagposts").innerHTML = "<ul>";
-      $("tagposts").innerHTML = "<li>" + archieves[0].title + "</li>";
-    $("tagposts").innerHTML = "</ul>";
   });
 </script>
 
@@ -21,5 +18,14 @@ title: 十八哥的日志归档
 {% endfor %}
 
 <div id="tagposts">
+  <ul>
+  <script>
+    if(!(typeof(archieves) == "undefined")) {
+      for(var i = 0; i < archieves.length; i++) {
+        doucment.write("<li>" + archieves[i].title + "</li>");
+      }
+    }
+  </script>
+  </ul>
 </div>
 

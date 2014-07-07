@@ -57,9 +57,10 @@
         </form>
         -->
       </div>
-
+      <br />
+      <p>文章分类：</p>
       {% for tag in site.tags %}
-        <a href="/show_by_tag.html?tag={{ tag[0] }}"> {{ tag[0] }}</a>
+        <a href="{{ site.baseurl }}/show_by_tag.html?tag={{ tag[0] }}"> {{ tag[0] }}</a>
       {% endfor %}
 
     </div>

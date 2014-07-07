@@ -15,8 +15,8 @@ title: 十八哥的日志归档
       tagposts += "<li><a href=\"" + archieves[i].url + "\">" + archieves[i].title + "</a></li>";
     }
     tagposts += "</ul>";
+    $("tagposts").innerHTML = tagposts;
   });
-  $("tagposts").innerHTML = tagposts;
 </script>
 
 {% for tag in site.tags %}

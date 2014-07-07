@@ -89,6 +89,10 @@ ul {
   padding-left:20px;
 }
 
+li {
+  padding-top:10px;
+}
+
 pre {
   background-color: #F8F8F8;
   padding: 10px;

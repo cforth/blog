@@ -10,22 +10,24 @@ title: 十八哥的日志归档
     data = JSON.parse(dataStr),
     curTag = $.query.get("tag"),
     archieves = data[curTag];
-    var tagpost = "<ul>";
+    var tagpost;
     
     if (curTag == "All") {
-      tagpost = "<ul> {% for post in site.posts %} <li>{{ post.date | date: \"%Y-%m-%d\" }} <a href=\"{{ site.baseurl }}{{ post.url }}\">{{ post.title }}<\/a><\/li> {% endfor %} <\/ul>";  
+      tagpost = "<ul> {% for post in site.posts %} <li class=\"tags\"><span> {{ post.date | date: \"%Y-%m-%d\" }}<\/span> &raquo\;<a href=\"{{ site.baseurl }}{{ post.url }}\">{{ post.title }}<\/a><\/li> {% endfor %} <\/ul>";  
       document.getElementById("tagposts").innerHTML = tagpost;
     } else {
+      tagpost = "<ul>";
       for(var i = 0; i < archieves.length; i++) {
         tagpost += "<li class=\"tags\"><span>" + archieves[i].postdate + "<\/span> &raquo\;<a href=\"{{ site.baseurl }}" + archieves[i].url + "\">" + archieves[i].title + "<\/a><\/li>";
       }
       tagpost += "</ul>";
       document.getElementById("tagposts").innerHTML = tagpost;
     }
+
   });
 </script>
 
-    <a href="{{ site.baseurl }}/show_by_tag.html?tag=All">| All </a>
+    <a href="{{ site.baseurl }}/show_by_tag.html?tag=All">| All |</a>
 {% for tag in site.tags %}
     <a href="{{ site.baseurl }}/show_by_tag.html?tag={{ tag[0] }}">| {{ tag[0] }} |</a>
 {% endfor %}

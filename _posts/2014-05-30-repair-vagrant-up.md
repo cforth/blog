@@ -2,6 +2,7 @@
 layout: default
 title: 修复Vagrant启动错误
 excerpt: VBox升级后引起 vagrant up 报错。
+tags: [IT]
 ---
 {{ page.title }}
 ================

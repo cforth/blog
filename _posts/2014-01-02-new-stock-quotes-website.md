@@ -2,6 +2,7 @@
 layout: default
 title: 新的网页股票行情网站正式推出
 excerpt: 改进了网页股票行情网站，新的网站能自动刷新行情数据。
+tags: [Coding]
 ---
 {{ page.title }}
 ================

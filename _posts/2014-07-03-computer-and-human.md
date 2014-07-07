@@ -2,6 +2,7 @@
 layout: default
 title: 计算机与人类的区别
 excerpt: 计算机只能执行，人类却可以观察。
+tags: [Thinking]
 ---
 {{ page.title }}
 ================

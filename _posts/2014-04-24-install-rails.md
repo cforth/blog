@@ -2,6 +2,7 @@
 layout: default
 title: Rails开发环境部署
 excerpt: 通过Vagrant搭建Rails开发环境。
+tags: [IT]
 ---
 {{ page.title }}
 ================

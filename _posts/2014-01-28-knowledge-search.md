@@ -2,6 +2,7 @@
 layout: default
 title: 推出知识搜索服务
 excerpt: 模仿Google搜索做的知识搜索网站。
+tags: [Coding]
 ---
 {{ page.title }}
 ================

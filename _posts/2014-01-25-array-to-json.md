@@ -2,6 +2,7 @@
 layout: default
 title: 利用JSON文本格式保存数据
 excerpt: 尝试用JSON格式存储股票行情信息。
+tags: [Coding]
 ---
 {{ page.title }}
 ================

@@ -2,6 +2,7 @@
 layout: default
 title: 优化股票行情网页的思考
 excerpt: 如何能手工设置行情刷新时间，这是个问题。
+tags: [Coding]
 ---
 {{ page.title }}
 ================

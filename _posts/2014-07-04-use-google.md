@@ -2,6 +2,7 @@
 layout: default
 title: Google服务被封的替代方案
 excerpt: 如何翻越GFW访问Google。
+tags: [IT]
 ---
 {{ page.title }}
 ================

@@ -2,6 +2,7 @@
 layout: default
 title: 2014新年新目标
 excerpt: 为自己设定新年的计划。
+tags: [Thinking]
 ---
 {{ page.title }}
 ================

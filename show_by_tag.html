@@ -11,9 +11,7 @@ title: 十八哥的日志归档
     curTag = $.query.get("tag"),
     archieves = data[curTag];
     $("tagposts").innerHTML = "<ul>";
-    for (var i = 0; i < archieves.length; i++) {
-      $("tagposts").innerHTML = "<li>" + archieves[i].title + "</li>";
-    }
+      $("tagposts").innerHTML = "<li>" + archieves[0].title + "</li>";
     $("tagposts").innerHTML = "</ul>";
   });
 </script>

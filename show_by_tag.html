@@ -10,12 +10,13 @@ title: 十八哥的日志归档
     data = JSON.parse(dataStr),
     curTag = $.query.get("tag"),
     archieves = data[curTag];
-    var tagposts = "<ul>";
+    var tagpost = "<ul>";
     for(var i = 0; i < archieves.length; i++) {
-      tagposts += "<li><a href=\"" + archieves[i].url + "\">" + archieves[i].title + "</a></li>";
+      tagpost += "<li><a href=\"" + archieves[i].url + "\">" + archieves[i].title + "</a></li>";
     }
-    tagposts += "</ul>";
-    $("tagposts").innerHTML = tagposts;
+    tagpost += "</ul>";
+    tagpost = "111111";
+    $("tagposts").innerHTML = tagpost;
   });
 </script>
 

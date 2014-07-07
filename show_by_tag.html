@@ -12,5 +12,5 @@ title: 十八哥的日志归档
 </script>
 
 {% for tag in site.tags %}
-    <a href="/show_by_tag.html?tag={{ tag[0] }}"> {{ tag[0] }}</a>
+    <a href="{{ site.baseurl }}/show_by_tag.html?tag={{ tag[0] }}"> {{ tag[0] }}</a>
 {% endfor %}

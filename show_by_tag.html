@@ -12,13 +12,14 @@ title: 十八哥的日志归档
     archieves = data[curTag];
     var tagpost = "<ul>";
     for(var i = 0; i < archieves.length; i++) {
-      tagpost += "<li><span>" + archieves[i].postdate + "<\/span> &raquo\;<a href=\"{{ site.baseurl }}" + archieves[i].url + "\">" + archieves[i].title + "</a></li>";
+      tagpost += "<li><span>" + archieves[i].postdate + "<\/span> &raquo\;<a href=\"{{ site.baseurl }}" + archieves[i].url + "\">" + archieves[i].title + "<\/a><br \/><\/li>";
     }
     tagpost += "</ul>";
     document.getElementById("tagposts").innerHTML = tagpost;
   });
 </script>
 
+<br />
 {% for tag in site.tags %}
     <a href="{{ site.baseurl }}/show_by_tag.html?tag={{ tag[0] }}">| {{ tag[0] }} |</a>
 {% endfor %}

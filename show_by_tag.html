@@ -9,8 +9,6 @@ title: 十八哥的日志归档
   data = JSON.parse(dataStr),
   curTag = $.query.get("tag"),
   archieves = data[curTag];
-  document.getElementById("tagposts").innerHTML = archieves[0].title;
-  document.getElementById("tagposts").innerHTML = data.Notes[0].title;
 </script>
 
 {% for tag in site.tags %}
@@ -19,3 +17,7 @@ title: 十八哥的日志归档
 
 <div id="tagposts">
 </div>
+
+<script>
+  document.getElementById("tagposts").innerHTML = data.Notes[0].title;
+</script>

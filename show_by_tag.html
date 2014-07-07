@@ -10,7 +10,6 @@ title: 十八哥的日志归档
     data = JSON.parse(dataStr),
     curTag = $.query.get("tag"),
     archieves = data[curTag];
-    document.getElementById("tagstitle").innerHTML = curTag;
     
     if (curTag != "All") {
       var tagpost = "<ul>";
@@ -18,7 +17,10 @@ title: 十八哥的日志归档
         tagpost += "<li class=\"tags\"><span>" + archieves[i].postdate + "<\/span> &raquo\;<a href=\"{{ site.baseurl }}" + archieves[i].url + "\">" + archieves[i].title + "<\/a><\/li>";
       }
       tagpost += "</ul>";
+      document.getElementById("tagstitle").innerHTML = "<h2>*" + curTag + "*</h2>(" + archieves.length + " posts)";
       document.getElementById("tagposts").innerHTML = tagpost;
+    } else {
+      document.getElementById("tagstitle").innerHTML = "<h2>*" + curTag + "*</h2>";
     }
 
   });
@@ -30,7 +32,7 @@ title: 十八哥的日志归档
 {% endfor %}
 
 <br />
-<h3><div id="tagstitle"></div></h3>
+<div id="tagstitle"></div>
 <br />
 <div id="tagposts">
   <ul> 

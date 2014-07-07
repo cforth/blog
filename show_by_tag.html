@@ -10,7 +10,7 @@ title: 十八哥的日志归档
     data = JSON.parse(dataStr),
     curTag = $.query.get("tag"),
     archieves = data[curTag];
-    var tagpost = "<ul class="tags">";
+    var tagpost = "<ul class=\"tags\">";
     for(var i = 0; i < archieves.length; i++) {
       tagpost += "<li><span>" + archieves[i].postdate + "<\/span> &raquo\;<a href=\"{{ site.baseurl }}" + archieves[i].url + "\">" + archieves[i].title + "<\/a><\/li>";
     }

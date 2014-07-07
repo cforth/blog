@@ -20,11 +20,10 @@ title: 十八哥的日志归档
 <div id="tagposts">
   <ul>
   <script>
-    if(!(typeof(archieves) == "undefined")) {
+        doucment.write("<li>" + archieves[0].title + "</li>");
       for(var i = 0; i < archieves.length; i++) {
         doucment.write("<li>" + archieves[i].title + "</li>");
       }
-    }
   </script>
   </ul>
 </div>

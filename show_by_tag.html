@@ -10,13 +10,9 @@ title: 十八哥的日志归档
     data = JSON.parse(dataStr),
     curTag = $.query.get("tag"),
     archieves = data[curTag];
-    var tagpost;
     
-    if (curTag == "All") {
-      tagpost = "<ul> {% for post in site.posts %} <li class=\"tags\"><span> {{ post.date \| date: \"%Y-%m-%d\" }}<\/span> &raquo\;<a href=\"{{ site.baseurl }}{{ post.url }}\">{{ post.title }}<\/a><\/li> {% endfor %} <\/ul>";  
-      document.getElementById("tagposts").innerHTML = tagpost;
-    } else {
-      tagpost = "<ul>";
+    if (curTag != "All") {
+      var tagpost = "<ul>";
       for(var i = 0; i < archieves.length; i++) {
         tagpost += "<li class=\"tags\"><span>" + archieves[i].postdate + "<\/span> &raquo\;<a href=\"{{ site.baseurl }}" + archieves[i].url + "\">" + archieves[i].title + "<\/a><\/li>";
       }
@@ -34,6 +30,13 @@ title: 十八哥的日志归档
 
 <br />
 <div id="tagposts">
-  
+  <ul> 
+    {% for post in site.posts %} 
+    <li class="tags">
+      <span> {{ post.date | date: "%Y-%m-%d" }}</span> &raquo;
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </li> 
+    {% endfor %} 
+  </ul>  
 </div>
 

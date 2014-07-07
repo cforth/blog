@@ -89,6 +89,11 @@ ul {
   padding-left:20px;
 }
 
+ul.tags {
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
 pre {
   background-color: #F8F8F8;
   padding: 10px;

@@ -2,7 +2,7 @@
 layout: default
 title: 阅读电子书
 excerpt: 与传统纸质书比较，电子书的好处和坏处。
-tags: [随笔]
+tags: [notes, it]
 ---
 {{ page.title }}
 ================

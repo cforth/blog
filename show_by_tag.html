@@ -12,7 +12,7 @@ title: 十八哥的日志归档
     archieves = data[curTag];
     var tagpost = "<ul>";
     for(var i = 0; i < archieves.length; i++) {
-      tagpost += "<li><a href=\"{{ sites.baseurl }}" + archieves[i].url + "\">" + archieves[i].title + "</a></li>";
+      tagpost += "<li><a href=\"{{ site.baseurl }}" + archieves[i].url + "\">" + archieves[i].title + "</a></li>";
     }
     tagpost += "</ul>";
     document.getElementById("tagposts").innerHTML = tagpost;

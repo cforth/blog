@@ -17,7 +17,7 @@ title: 十八哥的日志归档
         tagpost += "<li class=\"tags\"><span>" + archieves[i].postdate + "<\/span> &raquo\;<a href=\"{{ site.baseurl }}" + archieves[i].url + "\">" + archieves[i].title + "<\/a><\/li>";
       }
       tagpost += "</ul>";
-      document.getElementById("tagstitle").innerHTML = "<h2>*" + curTag + "*</h2>(" + archieves.length + " posts)";
+      document.getElementById("tagstitle").innerHTML = "<h2>*" + curTag + "(" + archieves.length + " posts)*</h2>";
       document.getElementById("tagposts").innerHTML = tagpost;
     } else {
       document.getElementById("tagstitle").innerHTML = "<h2>*" + curTag + "*</h2>";
@@ -33,7 +33,6 @@ title: 十八哥的日志归档
 
 <br />
 <div id="tagstitle"></div>
-<br />
 <div id="tagposts">
   <ul> 
     {% for post in site.posts %} 

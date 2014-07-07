@@ -10,6 +10,7 @@ title: 十八哥的日志归档
     data = JSON.parse(dataStr),
     curTag = $.query.get("tag"),
     archieves = data[curTag];
+    document.getElementById("tagstitle").innerHTML = curTag;
     
     if (curTag != "All") {
       var tagpost = "<ul>";
@@ -28,6 +29,8 @@ title: 十八哥的日志归档
     <a href="{{ site.baseurl }}/show_by_tag.html?tag={{ tag[0] }}">| {{ tag[0] }} |</a>
 {% endfor %}
 
+<br />
+<h3><div id="tagstitle"></div></h3>
 <br />
 <div id="tagposts">
   <ul> 

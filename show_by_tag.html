@@ -4,6 +4,7 @@ title: 十八哥的日志归档
 ---
 <h1>{{ page.title }}</h1>
 
+<!-- 将所有文章的标题、链接、日期按照tags分类压缩到JSON数据。通过jquery.query.js插件，从URL中获取tags参数后，利用js动态插入到页面中。默认的tags参数为ALL，显示所有文章。 -->
 <script>
   $(document).ready(function(){
     var dataStr = '{ {% for tag in site.tags %}{% if tag[0] != site.tags.first[0] %},{% endif %}"{{ tag[0] }}":[{% for post in tag[1] %}{% if post != tag[1].first %},{% endif %}{"url":"{{post.url}}", "title":"{{post.title}}", "postdate":"{{post.date | date:"%Y-%m-%d"}}"}{% endfor %}]{% endfor %} }',
@@ -20,7 +21,7 @@ title: 十八哥的日志归档
       document.getElementById("tagstitle").innerHTML = "<h2>*" + curTag + "(" + archieves.length + " posts)*</h2>";
       document.getElementById("tagposts").innerHTML = tagpost;
     } else {
-      document.getElementById("tagstitle").innerHTML = "<h2>*" + curTag + "*</h2>";
+      document.getElementById("tagstitle").innerHTML = "<h2>*" + curTag + "({{ site.posts | size }} posts)*</h2>";
     }
 
   });

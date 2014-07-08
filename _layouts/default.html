@@ -29,15 +29,15 @@
 
     <br />
     {% if page.next %}
-      <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ page.next.title }}" style="float: right;">上一篇 &rarr;</a>
+      <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ page.next.title }}">&larr; 上一篇 </a>
     {% else %}
-      <a style="float: right;">上一篇 &rarr;</a>
+      <a>&larr; 上一篇 </a>
     {% endif %} 
 
     {% if page.previous %}
-      <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ page.previous.title }}">&larr; 下一篇</a>
+      <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{ page.previous.title }}" style="float: right;">下一篇 &rarr;</a>
     {% else %}
-      <a>&larr; 下一篇</a>
+      <a style="float: right;">下一篇 &rarr;</a>
     {% endif %}
     <br />
 

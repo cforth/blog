@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /*?*
+Sitemap: http://cfishacker.com/blog/sitemap.xml

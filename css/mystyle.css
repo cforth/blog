@@ -101,6 +101,11 @@ pre {
   border-style: solid;
   border-width: 1px;
   border-color: #A9A9A9;
+  white-space:pre-wrap;
+  white-space:-moz-pre-wrap;
+  white-space:-pre-wrap;
+  white-space:-o-pre-wrap;
+  word-wrap:break-word;
 }
 
 

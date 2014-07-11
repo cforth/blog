@@ -7,7 +7,7 @@ tags: [Coding]
 {{ page.title }}
 ================
 
-先说说我最初设计[*投资决策参考*](http://cfishacker.com/stock/)所考虑的东西。
+先说说我最初设计[**投资决策参考**](http://cfishacker.com/stock/)所考虑的东西。
 
 1. 简洁，不干扰视线，不浪费一个字节的流量。
 

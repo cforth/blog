@@ -13,6 +13,7 @@ tags: [IT]
 
 对于建立新的数据库，建立表格，经过摸索也很顺利的做完了。记录下用到的命令:
 
+```
 /* 建立新表 */
 CREATE TABLE mytable.20131011(      /* 以日期建立新表 */
         ID INT(100) NOT NULL ,              /* INT格式 */
@@ -29,6 +30,7 @@ lines terminated by '\r\n';
 
 /* 将两张表合并，注意有显示数目限制，需改进！！ */
 select a.*, b.t1 from mysql1.mytable1 a left join mysql1.mytable2 b on a.id = B.id limit 500
+```
 
 P.S.目前还不知道如何将表合并后存入新表，会继续学习！
 

@@ -17,6 +17,15 @@
       var s = document.getElementsByTagName("script")[0]; 
       s.parentNode.insertBefore(hm, s);
      })();
+
+  <!-- 鼠标放在头像上图片变化 -->
+  function mOver(obj) {
+    obj.innerHTML="<p><a href=\"http://weibo.com/superchaifei\"><img src=\"{{ site.baseurl}}/my2.png\" width=\"150\" height=\"200\" title=\"十八哥的新浪微博\"/></a></p>";
+  }
+
+  function mOut(obj) {
+    obj.innerHTML="<p><a href=\"http://weibo.com/superchaifei\"><img src=\"{{ site.baseurl}}/my.png\" width=\"150\" height=\"200\" title=\"十八哥的新浪微博\"/></a></p>";
+  }
   </script>
 
 </head>
@@ -32,7 +41,7 @@
 
     <div id="menu">
       <br />
-      <p><a href="http://weibo.com/superchaifei"><img src="{{ site.baseurl}}/my.png" width="150" height="200" title="十八哥的新浪微博"/></a></p>
+      <div onmouseover="mOver(this)" onmouseout="mOut(this)"><p><a href="http://weibo.com/superchaifei"><img src="{{ site.baseurl}}/my.png" width="150" height="200" title="十八哥的新浪微博"/></a></p></div>
       <p><a href="http://siteapp.baidu.com/webapp/cfishacker.com/blog/">*移动端访问入口*</a></p>
       <p><a href="http://cfishacker.com/stock/">*十八哥的股票池*</a></p>
       <p><a href="{{ site.baseurl}}/atom.xml" rel="alternate" title="Atom Rss" type="application/atom+xml"><img src="{{ site.baseurl}}/ct_rss.gif" width="36" height="14"></a>&nbsp;&nbsp;<a href="https://github.com/cforth" title="GitHub"><img src="{{ site.baseurl }}/github.gif" width="36" height="14"></a></p>

@@ -6,7 +6,7 @@ body {
 }
 
 div#content {
-  width:580px;
+  width:610px;
   float:left;
   border:0;
   padding-right:20px;
@@ -14,7 +14,7 @@ div#content {
 }
 
 div#menu {
-  width:180px;
+  width:150px;
   float:left;
   border:0;
 }
@@ -40,6 +40,10 @@ div#text {
   background-color:#FFFFFF;
   border-style:none;
   padding:10px;
+}
+
+img {
+  max-width:750px;
 }
 
 p {

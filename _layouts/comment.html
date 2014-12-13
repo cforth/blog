@@ -1,45 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/mystyle.css">
-  <link rel="shortcut icon" href="{{ site.baseurl}}/favicon.ico" type="image/x-icon" />
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-
-　<title>{{ page.title }}</title>
+{\% include header.html %}
 </head>
 
 <body>
   <div id="main">
     <a href="{{ site.baseurl}}/">主页</a>
-    <a href="{{ site.baseurl}}/comments.html" style="float: right;">留言板</a>
+    <a href="{{ site.baseurl}}/pages/comments.html" style="float: right;">留言板</a>
     <hr />
       {{ content }}
     <p>请畅所欲言吧!</p>
 
-
-<!-- 多说评论框 start -->
-  <div class="ds-thread" data-thread-key="cfishacker_blog" data-title="留言板" data-url="{{ site.production_url }}{{page.url}}"></div>
-<!-- 多说评论框 end -->
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"cfishacker"};
-  (function() {
-    var ds = document.createElement('script');
-    ds.type = 'text/javascript';ds.async = true;
-    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-    ds.charset = 'UTF-8';
-    (document.getElementsByTagName('head')[0] 
-     || document.getElementsByTagName('body')[0]).appendChild(ds);
-  })();
-  </script>
-<!-- 多说公共JS代码 end -->
-
+	{\% include duoshuo.html %}
 
   </div>
 
   <div id="footer">
-    <hr />
-    <p>©2013-2014 <a href="mailto:admin@cfishacker.com?">十八哥</a>. <a href="http://www.easycounter.com/"><img src="http://www.easycounter.com/counter.php?chaif87" border="0" alt="Web Counters"></a> All rights reserved.</p>
+	{\% include footer.html %}
   </div>
 
 </body>

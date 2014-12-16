@@ -6,19 +6,20 @@
 
 <body>
   <div id="main">
-    <a href="{{ site.baseurl}}/">主页</a>
-    <a href="{{ site.baseurl}}/pages/comments.html" style="float: right;">留言板</a>
+    <div id="navbar">
+    {% include navbar.html %}
+    </div>
     <hr />
+    <div id="text">
       {{ content }}
-    <p>请畅所欲言吧!</p>
 
-	{% include duoshuo.html %}
-
+      {% include duoshuo.html %}
+    </div>
   </div>
-
+  
   <div id="footer">
-	{% include footer.html %}
+  {% include footer.html %}
   </div>
-
+  
 </body>
 </html>

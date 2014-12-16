@@ -13,6 +13,10 @@ div#content {
 
 }
 
+div#navbar {
+  padding-top:10px;
+}
+
 div#menu {
   width:150px;
   float:left;
@@ -31,9 +35,9 @@ div#footer {
 }
 
 div#main {
-  min-height:760px; //（解决ie8.9.ff.chrome）
-  *+height:100%;  //（解决ie7）
-  _height:760px; //（解决ie6） ie6超出自动溢出
+  min-height:760px; /*（解决ie8.9.ff.chrome）*/
+  *+height:100%;  /*（解决ie7）*/
+  _height:760px; /*（解决ie6） ie6超出自动溢出 */
 }
 
 div#text {

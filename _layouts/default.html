@@ -6,8 +6,9 @@
 
 <body>
   <div id="main">
-    <a href="{{ site.baseurl}}/">主页</a>
-    <a href="{{ site.baseurl}}/pages/comments.html" style="float: right;">留言板</a>
+    <div id="navbar">
+    {% include navbar.html %}
+    </div>
     <hr />
     <div id="text">
       {{ content }}
@@ -26,13 +27,14 @@
     {% endif %}
     <br />
 
-	{% include duoshuo.html %}
+    {% include duoshuo.html %}
 
-  </div>
-  
-  <div id="footer">
- 	{% include footer.html %}
-  </div>
+    </div>
+   </div> 
+    
+   <div id="footer">
+   {% include footer.html %}
+   </div>
 
 </body>
 </html>

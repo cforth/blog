@@ -17,8 +17,9 @@
 
 <body>
   <div id="main">
-    <a href="{{ site.baseurl}}/">主页</a>
-    <a href="{{ site.baseurl}}/pages/comments.html" style="float: right;">留言板</a>
+    <div id="navbar">
+    {% include navbar.html %}
+    </div>
     <hr />
     <div id="content">
       {{ content }}
@@ -40,12 +41,11 @@
       <p><a href="{{ site.baseurl}}/pages/atom.xml" rel="alternate" title="Atom Rss" type="application/atom+xml"><img src="{{ site.baseurl}}/public/images/ct_rss.gif" width="36" height="36"></a>&nbsp;&nbsp;&nbsp;<a href="https://github.com/cforth" title="GitHub"><img src="{{ site.baseurl }}/public/images/github.gif" width="36" height="36"></a>&nbsp;&nbsp;&nbsp;<a href="http://weibo.com/superchaifei" title="新浪微博"><img src="{{site.baseurl}}/public/images/weibo_logo.gif" width="36" height="32"></a></p>
 
     </div>
-
   </div>
-
+  
   <div id="footer">
- 	{% include footer.html %}
+  {% include footer.html %}
   </div>
-
+    
 </body>
 </html>

@@ -15,7 +15,7 @@ title: 十八哥的日志归档
     if (curTag != "All") {
       var tagpost = "<ul>";
       for(var i = 0; i < archieves.length; i++) {
-        tagpost += "<li class=\"tags\"><span>" + archieves[i].postdate + "<\/span> &raquo\;<a href=\"{{ site.baseurl }}" + archieves[i].url + "\">" + archieves[i].title + "<\/a><\/li>";
+        tagpost += "<li class=\"tags\"><span>" + archieves[i].postdate + "<\/span> &raquo\; <a href=\"{{ site.baseurl }}" + archieves[i].url + "\">" + archieves[i].title + "<\/a><\/li>";
       }
       tagpost += "</ul>";
       document.getElementById("tagstitle").innerHTML = "<h2>*" + curTag + "(" + archieves.length + " posts)*</h2>";
@@ -38,8 +38,7 @@ title: 十八哥的日志归档
   <ul> 
     {% for post in site.posts %} 
     <li class="tags">
-      <span> {{ post.date | date: "%Y-%m-%d" }}</span> &raquo;
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      <span> {{ post.date | date: "%Y-%m-%d" }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </li> 
     {% endfor %} 
   </ul>  

@@ -10,7 +10,10 @@ div#content {
   float:left;
   border:0;
   padding-right:20px;
+}
 
+p.postintro {
+  margin-top:5px
 }
 
 div#navbar {

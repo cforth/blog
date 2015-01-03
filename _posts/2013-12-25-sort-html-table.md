@@ -6,7 +6,7 @@ tags: [Coding]
 ---
 {{ page.title }}
 ================
-这是[**网页**](http://cforth.github.io/gdzqtest/) , 这是[**完整代码**](https://github.com/cforth/gdzqtest/commit/b15305ffdef0942cede6d64c0089bd43b83dddf1)
+这是[**网页**](http://cfishacker.com/stock/) , 这是[**完整代码**](https://github.com/cforth/stock)。
 
 在测试版的股票行情网页中，表格的排序功能一直不正常。本来是数字顺序排序列，却成了文本顺序的排序。今天我想好好研究下排序功能的源代码，确无意发现了问题所在。
 

@@ -6,7 +6,7 @@ tags: [Coding]
 ---
 {{ page.title }}
 ================
-这是[**完整代码**](https://github.com/cforth/gdzqtest)。
+这是[**完整代码**](https://github.com/cforth/stock)。
 
 2013年的最后一天，我在测试版的网页行情上增加了指数行情。使测试版网页行情拥有了正式版网页行情的所有功能，并且能正确的每5秒更新行情。
 

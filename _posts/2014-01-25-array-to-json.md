@@ -19,6 +19,6 @@ tags: [Coding]
 
 为了方便，我直接在html文件中写了个JavaScript函数，读取二维数组，并将转换后的JSON格式的文本直接写入到了网页中。然后在网页中把JSON格式的文本复制到.json后缀的文件中去。再写了个测试用的html文件，利用JavaScript自带的eval函数，JSON格式的字符串能正确的转换为JavaScript对象。
 
-这个JavaScript函数其实就只是为了节约我手工把二维数组转换为JSON格式文本的时间，是一次性的。[**这里**](https://github.com/cforth/codefarm/tree/master/js/stockArrayToJson)是代码。
+这个JavaScript函数其实就只是为了节约我手工把二维数组转换为JSON格式文本的时间，是一次性的。
 
 {{ page.date | date: "%Y-%m-%d" }}

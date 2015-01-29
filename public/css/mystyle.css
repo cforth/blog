@@ -1,12 +1,12 @@
 body {
-  width:780px;
+  width:960px;
   margin:0 auto;
   font-family: \5FAE\8F6F\96C5\9ED1;
   background:#FFFFFF;  
 }
 
 div#content {
-  width:610px;
+  width:720px;
   float:left;
   border:0;
   padding-right:20px;
@@ -21,9 +21,11 @@ div#navbar {
 }
 
 div#menu {
-  width:150px;
+  width:220px;
   float:left;
   border:0;
+  margin:0;
+  padding:0;
 }
 
 div#paginator {
@@ -31,7 +33,7 @@ div#paginator {
 }
 
 div#footer {
-  width:780px;
+  width:960px;
   float:left;
   text-align:center;
   border:0;
@@ -103,10 +105,24 @@ li.tags {
   margin-bottom:5px;
 }
 
+div#menu ul {
+  list-style-type:none;
+  padding:0;
+}
+
+div#menu li {
+  width:220px;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+
 pre {
   background-color: #F8F8F8;
   padding: 10px;
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
   border-style: solid;
   border-width: 1px;
   border-color: #A9A9A9;

@@ -52,7 +52,7 @@ div#text {
 }
 
 div#text img {
-  width:940px;
+  max-width:940px;
 }
 
 p {

@@ -56,3 +56,5 @@ print('name:{name} age:{age}'.format(name=fred.name, age=fred.age))
 ```
 
 要注意的是，这种写法会造成代码结构的不清晰。
+
+{{ page.date | date: "%Y-%m-%d" }}

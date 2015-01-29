@@ -6,7 +6,6 @@ tags: [Coding]
 ---
 {{ page.title }}
 ================
-![map and reduce](http://img.my.csdn.net/uploads/201410/17/1413524694_8628.png)
 
 Python 3.4中有现成的map与reduce函数，支持函数式编程。今天我花了几分钟用Python源码实现了这两个函数，很简单。
 

@@ -5,10 +5,10 @@ layout: null
 <feed xmlns="http://www.w3.org/2005/Atom">
  
   <title>十八哥的网络日志</title>
-  <link href="http://cfishacker.com/blog"/>
-  <link type="application/atom+xml" rel="self" href="http://cfishacker.com/blog/atom.xml"/>
+  <link href="http://cfxyz.com/blog"/>
+  <link type="application/atom+xml" rel="self" href="http://cfxyz.com/blog/atom.xml"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>http://cfishacker.com/blog</id>
+  <id>http://cfxyz.com/blog</id>
   <author>
     <name>十八哥</name>
     <email>admin@cfishacker.com</email>
@@ -18,12 +18,12 @@ layout: null
  {% for post in site.posts %}
   <entry>
     <id>{{ post.id }}</id>
-    <link type="text/html" rel="alternate" href="http://cfishacker.com/blog{{ post.url }}"/>
+    <link type="text/html" rel="alternate" href="http://cfxyz.com/blog{{ post.url }}"/>
     <title>{{ post.title | xml_escape }}</title>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <author>
       <name>十八哥</name>
-      <uri>http://cfishacker.com/blog</uri>
+      <uri>http://cfxyz.com/blog</uri>
     </author>
     <content type="html">{{ post.content | xml_escape }}</content>
   </entry>

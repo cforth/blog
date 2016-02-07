@@ -54,6 +54,6 @@ plt.show()
 
 通过补仓曲线发现，补仓资金是一个指数级的放大过程。所以在股市连续下跌中，传统的越跌越买的补仓方法不一定是好的，及时止损才正确。
 
-![stock_money](http://img3.douban.com/view/photo/photo/public/p2316690140.jpg)
+![stock_money](http://ww3.sinaimg.cn/large/6f76d05ajw1f0r102o774j20go0c574g.jpg)
 
 {{ page.date | date: "%Y-%m-%d" }}

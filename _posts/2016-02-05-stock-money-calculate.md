@@ -9,15 +9,15 @@ tags: [Coding]
 
 设股票市值为x,跌停次数是n次，需补仓f(n)，才能满足一次涨停就全部回本。通过python中的计算，发现满足以下规律：
 
-```bash
+~~~bash
 n=1, f(1) = 0.1 * x
 n=2, f(2) = 1.1 * x
 n>2, f(n) = f(n-1) * 2
-```
+~~~
 
 使用python3实现了这个股票补仓的计算，并且保存到表格中。还利用matplotlib库把曲线图画了出来，代码如下：
 
-```python
+~~~python
 # coding: utf-8
 import csv
 import matplotlib.pyplot as plt
@@ -50,7 +50,7 @@ plt.plot(plt_list)
 plt.xlabel('days')
 plt.ylabel('money')
 plt.show()
-```
+~~~
 
 通过补仓曲线发现，补仓资金是一个指数级的放大过程。所以在股市连续下跌中，传统的越跌越买的补仓方法不一定是好的，及时止损才正确。
 

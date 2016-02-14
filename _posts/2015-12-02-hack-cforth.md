@@ -19,9 +19,9 @@ tags: [Coding]
 
 ## 安装
 
-```bash
+~~~bash
 make forth
-```
+~~~
 
 ## 特性支持
 

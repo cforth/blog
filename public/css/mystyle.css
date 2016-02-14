@@ -28,6 +28,10 @@ div#menu {
   padding:0;
 }
 
+table.menu-table {
+  width:100%;
+}
+
 div#paginator {
   text-align:left;
 }
@@ -108,6 +112,10 @@ ol {
 li.tags {
   margin-top:5px;
   margin-bottom:5px;
+}
+
+li.bold {
+  font-weight: bold
 }
 
 div#menu ul {

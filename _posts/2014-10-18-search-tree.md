@@ -10,7 +10,7 @@ tags: [Coding]
 
 树是一种常用的数据结构，今天我花了点时间研究了树的深度遍历与广度遍历算法实现。二叉树的遍历算法很简单，但要写正确了还得花点心思。
 
-```python
+~~~python
 ## 二叉树遍历
 
 ##        0
@@ -76,11 +76,11 @@ def breadth_first_search(root):
 
 breadth_first_search(node0)
 ## 0 1 4 2 3 5 6 
-```
+~~~
 
 实现完二叉树的遍历后，我又思考了下普通树的遍历算法。发现也很简单，写起来只要仔细一点就行了。
 
-```python
+~~~python
 ## 普通树遍历
 
 ##          0
@@ -144,7 +144,7 @@ def breadth_first_search_tree(root):
 
 breadth_first_search_tree(node0)
 ## 0 1 5 8 2 3 4 6 7 9 
-```
+~~~
 
 这几个树遍历的算法，都是利用了堆栈或者队列这种数据结构，并没有使用递归算法。
 

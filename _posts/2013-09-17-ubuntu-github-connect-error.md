@@ -9,36 +9,36 @@ tags: [Coding]
 
 原网址：http://blog.163.com/zhou_411424/blog/static/197362156201281725033556/
 
-{% highlight bash %}
+~~~bash
 zhoulc@zhoulc-PC:~$ ssh git@github.com
 ssh: connect to host github.com port 22: Connection timed out
-{% endhighlight %}
+~~~
 
 解决办法：（linux下）
 
-{% highlight bash %}
+~~~bash
 ~$ cd ~
 
 ~$ cd .ssh/
 
 ~$ touch config
-{% endhighlight %}
+~~~
 
 在.ssh目录下创建一个config文件，输入如下内容：
 
-```
+~~~
 Host github.com
 User xxx@163.com （你注册github时的邮箱，这里使用注册的用户名也行）
 Hostname ssh.github.com
 PreferredAuthentications publickey
 IdentityFile ~/.ssh/id_rsa
 Port 443
-```
+~~~
 
 可以把以上内容拷到config文件里面，注意修改你的邮箱，保存并关闭
 进行测试是否连接上github.com
 
-{% highlight bash %}
+~~~bash
 zhoulc@zhoulc-PC:~/.ssh$ cd ~
 zhoulc@zhoulc-PC:~$ ssh -T git@github.com
 The authenticity of host '[ssh.github.com]:443 ([207.97.227.248]:443)'
@@ -51,6 +51,6 @@ Warning: Permanently added '[ssh.github.com]:443,[207.97.227.248]:443' (RSA)
 Hi zhou411424! You've successfully authenticated, but GitHub does not provide
  shell access.
 出现Hi xxx!......表示连接成功。
-{% endhighlight %}
+~~~
 
 {{ page.date | date: "%Y-%m-%d" }}

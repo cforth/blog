@@ -26,9 +26,9 @@ tags: [Coding]
 hanoi_auto与hanoi_alg配合使用，可自动完成汉诺塔游戏。
 操作步骤如下：
 
-```
-  ./hanoi_alg.scm | ./hanoi_auto.exe
-  5                  //输入要完成的hanoi层数
-```
+~~~bash
+./hanoi_alg.scm | ./hanoi_auto.exe
+5                  //输入要完成的hanoi层数
+~~~
 
 {{ page.date | date: "%Y-%m-%d" }}

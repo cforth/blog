@@ -23,16 +23,16 @@ tags: [Coding]
 
 在测试中，发现了一条报错信息：
 
-```
+~~~
 lua: nextvar.lua:344: bad argument #1 to 'remove' (position out of bounds)
-```
+~~~
 
 查看对应文件中的代码：
 
-```lua
+~~~lua
 a = {10,20,30,40}
 assert(table.remove(a, #a + 1) == nil and table.remove(a, 0) == nil)
-```
+~~~
 
 经分析，可能是 #a + 1 得到的数字5超出了hash表a的下标范围。这引发了remove函数的报错。把这条测试代码注释掉后，所有文件的测试顺利通过了。
 

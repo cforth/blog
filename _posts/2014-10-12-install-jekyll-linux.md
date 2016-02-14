@@ -40,11 +40,11 @@ tags: [Coding]
 -----------------
 在bash上输入以下代码：
 
-```
+~~~bash
 gem install jekyll      #注意要在ruby 2.1.3环境上安装jekyll
 easy_install Pyaments   #jekyll上的语法高亮插件，注意要在python 2.3.1环境上安装
 apt-get install nodejs  #jekyll需要的JS库
-``` 
+~~~ 
 
 至此在Ubuntu上的Jekyll本地开发环境就已经搭建好了。
 

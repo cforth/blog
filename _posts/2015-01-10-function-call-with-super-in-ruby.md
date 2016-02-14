@@ -8,13 +8,13 @@ tags: [Coding]
 ================
 这几天在看《计算的本质：深入剖析程序和计算机》的第三章，通过非确定有限自动机NFA来组合成正则表达式实现。其中在实现NFA的自由移动功能时，一段Ruby代码很让我困扰。导致我在用Python语言重写这段代码时，发生了很严重的错误，找了一整天才找到出错的地方在哪。这段Ruby代码就是利用了super关键字：
 
-```ruby
+~~~ruby
 class NFA
     def current_states
         rulebook.follow_free_moves(super)
     end
 end
-```
+~~~
 
 NFA类的current_states方法已经在之前有了实现，但是这里又重复定义一次。由于Python中无法不通过继承来重复定义一个方法，所以我很疑惑。查了一些资料后，貌似这就是Ruby的一个很重要的特性“猴子补丁”。我不理解这段代码，特别用super关键字作为参数的用处。
 

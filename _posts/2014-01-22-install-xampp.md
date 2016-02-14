@@ -13,7 +13,7 @@ tags: [IT]
 
 还有因为我在windows上开发，所以安装了VIM的windows版。下面是我的配置文件_VIMRC：
 
-```
+~~~
 syntax on
 set nocp
 set number
@@ -38,7 +38,7 @@ source $VIMRUNTIME/delmenu.vim
 source $VIMRUNTIME/menu.vim
 "解决consle输出乱码
 language messages zh_CN.utf-8
-```
+~~~
 
 这样的配置可以让VIM用起来更加舒服(对于我自己)。
 

@@ -16,15 +16,15 @@ Vagrant uses the ‘VBoxManage’ binary that ships with VirtualBox, and require
 
 我猜想，可能是VBox升级所导致的。根据错误提示，只要把VBoxManage的启动路径添加到环境变量$PATH中，就可以了。于是我尝试了输入下面的命令：
 
-```
+~~~bash
 echo $PATH 
-```
+~~~
 
 果然，VBoxManage启动路径不在$PATH中。
 
-```
+~~~bash
 export PATH=/cygdrive/d/Program\ Files/Oracle/VirtualBox:$PATH
-```
+~~~
 
 更新环境变量$PATH后，再次‘vagrant up’后，虚拟机顺利启动了。
 

@@ -18,24 +18,24 @@ tags: [Coding]
 
 3. 下载DevKit，解压到相应文件夹，我是解压到了D:\devkit下。打开cmd，切换到D:\devkit下，执行以下命令。
 
-```
+~~~bash
 D:\devkit> ruby dk.rb init
 D:\devkit> ruby dk.rb install
-```
+~~~
 
 二、安装Jekyll
 ------------------
 打开cmd，执行：
 
-```
+~~~bash
 C:\>gem install jekyll
-```
+~~~
 
 安装语法高亮插件，需事先安装好Python2.7。通过jekyll new命令创建的站点中使用了语法高亮插件pygments，但pygments需要单独另外安装，所以导致部署站点时出现错误，虽然网站启动了，但是并没有成功生产静态页面，导致浏览页面时都是空的。
 
-```
+~~~bash
 D:\Python27\Scripts> easy_install Pygments
-```
+~~~
 
 三、测试Jekyll
 -----------------

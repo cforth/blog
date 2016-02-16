@@ -14,6 +14,7 @@ tags: [Coding]
 具体安装的步骤等我整理后再放上来了，我是把[GW20150914](https://losc.ligo.org/s/events/GW150914/P150914/fig1-observed-H.txt)这个引力波数据先下载到了本地，并且去掉了第一列的时间列。
 
 代码(Python2.7)：
+
 ~~~python
 #!/usr/bin/python
 

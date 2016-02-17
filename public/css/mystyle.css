@@ -57,6 +57,9 @@ div#text {
 
 div#text img {
   max-width:940px;
+  clear: both; 
+  display: block; 
+  margin:auto; 
 }
 
 p {

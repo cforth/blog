@@ -15,4 +15,6 @@ tags: [Coding]
 
 3. 学习的目的是为了掌握Java编程开发的基础，理解Java实际开发中的技术和流程。
 
+本次Java编程开发入门的学习代码库地址在[这里](https://github.com/cforth/codefarm/tree/master/javademo)。
+
 {{ page.date | date: "%Y-%m-%d" }}

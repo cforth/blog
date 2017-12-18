@@ -62,6 +62,11 @@ div#text img {
   margin:auto; 
 }
 
+div#doubanjpg img {
+	width:100px;
+
+}
+
 p {
   line-height: 180%;
 }

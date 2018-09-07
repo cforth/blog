@@ -4,13 +4,13 @@ layout: null
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
-  <title>No.18的网络日志</title>
+  <title>十八哥的网络日志</title>
   <link href="http://cfxyz.com/blog"/>
   <link type="application/atom+xml" rel="self" href="http://cfxyz.com/blog/atom.xml"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>http://cfxyz.com/blog</id>
   <author>
-    <name>No.18</name>
+    <name>十八哥</name>
     <email>cforth@cfxyz.com</email>
   </author>
 
@@ -22,7 +22,7 @@ layout: null
     <title>{{ post.title | xml_escape }}</title>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <author>
-      <name>No.18</name>
+      <name>十八哥</name>
       <uri>http://cfxyz.com/blog</uri>
     </author>
     <content type="html">{{ post.content | xml_escape }}</content>

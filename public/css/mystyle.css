@@ -2,7 +2,7 @@ body {
   width:960px;
   margin:0 auto;
   font-family: \5FAE\8F6F\96C5\9ED1;
-  background:#FFFFFF;  
+  background:#f5f5d5;  
 }
 
 div#content {
@@ -50,7 +50,7 @@ div#main {
 }
 
 div#text {
-  background-color:#FFFFFF;
+  background-color:#f5f5d5;
   border-style:none;
   padding:10px;
 }
